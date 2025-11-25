@@ -7,7 +7,7 @@ public protocol SeverityTracker: Sendable {
     var value: InfoType { get }
 }
 
-@available(*, deprecated, message: "this package is deprecated, use the repository https://github.com/swiftxml/PipelineLoggingBinding instead")
+@available(*, deprecated, message: "this package is deprecated, use the repository https://github.com/swiftxml/PipelineLoggingBinding instead and note the version number being reset to 1.0.0")
 public struct ExecutionLogEntry: Sendable, CustomStringConvertible {
     
     let executionEvent: ExecutionEvent
@@ -23,7 +23,7 @@ public struct ExecutionLogEntry: Sendable, CustomStringConvertible {
     }
 }
 
-@available(*, deprecated, message: "this package is deprecated, use the repository https://github.com/swiftxml/PipelineLoggingBinding instead")
+@available(*, deprecated, message: "this package is deprecated, use the repository https://github.com/swiftxml/PipelineLoggingBinding instead and note the version number being reset to 1.0.0")
 public struct EventProcessorForLogger: ExecutionEventProcessor {
     
     public let metadataInfo: String
